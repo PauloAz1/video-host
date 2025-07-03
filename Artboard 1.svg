@@ -3,13 +3,31 @@
   <defs>
     <style>
       .cls-1 {
-        fill: url(#linear-gradient);
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
       }
     </style>
-    <linearGradient id="linear-gradient" x1=".11" y1="1080.69" x2="1.11" y2="1079.69" gradientTransform="translate(205.47 505905.4) scale(447.54 -467.69)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f04"/>
-      <stop offset="1" stop-color="#04f"/>
-    </linearGradient>
+    <radialGradient id="radial-gradient" cx="646.01" cy="979.33" fx="594.25" fy="1019.1" r="161.84" gradientTransform="translate(-335.53 -508.65) scale(1.52)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2d4454"/>
+      <stop offset=".49" stop-color="#3d576a"/>
+      <stop offset=".86" stop-color="#566d7c"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="1175.17" cy="389.62" fx="1123.41" fy="429.4" r="161.84" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-3" cx="1478.54" cy="749.02" fx="1406.72" fy="749.02" r="127.14" gradientTransform="translate(-884.65 -420.83) scale(1.62)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ac6066"/>
+      <stop offset=".48" stop-color="#bc6165"/>
+      <stop offset=".86" stop-color="#ea7274"/>
+      <stop offset="1" stop-color="#f48789"/>
+    </radialGradient>
   </defs>
-  <path class="cls-1" d="M661.69,686.66c0,130-120,300-250,260-130-40-210-210-130-340s260-170,380-50c80,90,0,130,0,130Z"/>
+  <path class="cls-3" d="M449.92,951.64c0-81.74,90.82-181.64,181.64-163.48,90.82,18.16,227.05,127.15,208.89,245.22-18.16,118.07-154.39,172.56-263.38,118.07-108.98-54.49-127.15-163.48-127.15-199.81Z"/>
+  <path class="cls-2" d="M1253.92,55.64c0-81.74,90.82-181.64,181.64-163.48,90.82,18.16,227.05,127.15,208.89,245.22-18.16,118.07-154.39,172.56-263.38,118.07-108.98-54.49-127.15-163.48-127.15-199.81Z"/>
+  <path class="cls-1" d="M1306.47,765.74c0-87.35,97.05-194.11,194.11-174.7,97.05,19.41,242.63,135.88,223.22,262.04-19.41,126.17-164.99,184.4-281.46,126.17-116.46-58.23-135.88-174.7-135.88-213.52Z"/>
 </svg>
